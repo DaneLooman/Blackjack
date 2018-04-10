@@ -10,7 +10,7 @@ except ValueError:
     print "Not a Number"
 #still need to figure out what to do if player enters letters
 if numPlayers > 5:
-   print "Must be 5 or less players"
+    print "Must be 5 or less players"
 else:
     print ('There are ' + str(numPlayers) + ' players and one dealer')
 
